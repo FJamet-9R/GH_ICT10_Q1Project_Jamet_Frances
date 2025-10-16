@@ -1,0 +1,125 @@
+
+body{
+	background-image: url(mip.jpg);
+
+	animation: fadeInAnimation ease 3s;
+	            animation-iteration-count: 1;
+	            animation-fill-mode: forwards;
+	    } 
+	    @keyframes fadeInAnimation{
+	            0% {
+	                opacity: 0;
+	            }
+
+	            100% {
+	                opacity: 1;
+                }
+            }
+
+            a:link{
+    color: #51321b;
+}
+
+a:visited{
+    color: #51321b;
+}
+
+a:hover{
+    color: #51321b;
+    font-weight: bold;
+}
+
+#navbar{
+    overflow: auto;
+    background-color: #fdeed9;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    font-size: large;
+    color: #51321b;
+    border: medium dashed black;
+}
+
+#yo{
+    border: thin solid #51321b;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px
+}
+
+h1{
+    font-family: Lobster, cursive;
+}
+
+#div1{
+    border: thin solid #51321b;
+    padding: 20px;
+    text-align: center;
+    background-color: #fdeed9;
+    width: 1400px;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+
+
+#disp{
+    margin-left: 200px;
+}
+
+h4{
+    color: #51321b;
+    background-color: white ;
+    text-align: center;
+    border: medium dashed;
+    padding: 10px;
+    margin: 20px;   
+    border-radius: 30px;
+    width: 80%;   
+}
+
+#the{
+    table-layout: fixed;
+    align: center;
+    border: 1px solid #51321b;
+    color: #51321b;
+}
+
+.row{
+    border: 1px solid #51321b;
+    padding: 30px;
+    text-align: center;
+    width: 1000px;
+    background-color: white;
+}
+
+#div4{
+    color: #51321b;
+    background-color: white;
+    text-align: center;
+    border: medium dashed;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 15px;   
+    border-radius: 30px;
+    width: 50%;
+    align: center;
+
+}
+
+#mip{
+    font-weight: bold;
+    text-align: left;
+    color: #51321b;
+}
+
+#ay{
+    font-weight: bold;
+    color:#51321b;
+}
+
+#motto{
+    font-family: 'Jersey 10';
+}

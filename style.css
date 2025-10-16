@@ -1,0 +1,102 @@
+body{
+	background-image: url(bg.jpg);
+
+	animation: fadeInAnimation ease 3s;
+	            animation-iteration-count: 1;
+	            animation-fill-mode: forwards;
+	    } 
+	    @keyframes fadeInAnimation{
+	            0% {
+	                opacity: 0;
+	            }
+
+	            100% {
+	                opacity: 1;
+                }
+            }
+
+   
+            
+
+#yo{
+    border: thin solid #51321b;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px
+}
+
+a:link{
+    color: #51321b;
+}
+
+a:visited{
+    color: #51321b;
+}
+
+a:hover{
+    color: #51321b;
+    font-weight: bold;
+}
+
+#navbar{
+    overflow: auto;
+    background-color: #fdeed9;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    font-size: large;
+    color: #51321b;
+    border: medium dashed black;
+}
+
+h1{
+    font-family: Lobster, cursive;
+    text-align: center;
+}
+
+#div1{
+    color: #51321b;
+    background-color: #fdeed9 ;
+    text-align: center;
+    border: medium dashed;
+    padding: 10px;
+    margin: 20px;   
+    border-radius: 30px;
+    size-adjust: 100px;
+
+}
+
+.col-sm-4{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.col-sm-8{
+    border-radius: 30px;
+    width: 700px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    border: thin solid #51321b;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-left:20px
+
+}
+
+#sweetness{
+    width: 1200px;
+    margin: 130px;
+    border: thin solid #51321b;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#mio{
+    text-align: center;
+    font-size: 20px;
+}
+
